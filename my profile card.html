@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d0d0d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .profile-card {
+            width: 320px;
+            background: #1a1a1a;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            text-align: center;
+            color: #f0f0f0;
+            border-top: 4px solid #4a6fa5;
+        }
+
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #333;
+            margin: 0 auto 20px;
+            display: block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #ffffff;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #aaa;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .bio {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #ddd;
+            margin-bottom: 25px;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: transform 0.2s;
+        }
+
+        .instagram { background: linear-gradient(45deg, #405DE6, #E1306C); }
+        .facebook { background: #3b5998; }
+        .github { background: #333; }
+        
+        .signature {
+            margin-top: 20px;
+            font-style: italic;
+            color: #4a6fa5;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="IMG_20250726_224343.png" alt="Profile" class="profile-pic">
+        <div class="name">JOSEPH</div>
+        <div class="title">Allah is my first guide</div>
+        <p class="bio">
+            I am a person of discipline and structure, yet filled with love and compassion. 
+            My purpose is to encourage everyone to see their highest potential each new day. 
+            I believe in growth, excellence, and constant self-improvement. 
+            Above all, I remain forever grateful to Allah for every blessing and challenge.
+        </p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/youssef.j.m.535439" class="social-link instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/the_dreamer__joseph/" class="social-link facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/youssefjemli" class="social-link github" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="signature">Alhamdulillah for everything</div>
+    </div>
+</body>
+</html>
